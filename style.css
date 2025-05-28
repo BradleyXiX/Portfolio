@@ -216,7 +216,7 @@ section{
     margin: 5rem;
 }
 .services{
-    background-color: var(--bg-color);
+    background-color: var(--second-bg-color);
     color: black;    
 }
 .services h2{
@@ -269,7 +269,7 @@ section{
 
 /*----------------Project-----------------------------*/
 .projects{
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
 }
 .projects-box{
     display: grid;
@@ -293,6 +293,7 @@ section{
     cursor: pointer;
     box-shadow: 0 0 10px var(--main-color);
     transition: 0.3s ease-in-out;
+    
 
 }
 .project-card:hover{
@@ -310,6 +311,9 @@ section{
 }
 .project-card p{
     font-size: 1.6rem;
+}
+.project-card > div.description{
+    height: 105px;
 }
 
 /*----------------Contact-----------------------------*/
